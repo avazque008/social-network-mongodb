@@ -11,8 +11,10 @@ const {
 
 router.route('/')
     .get(getAllThought)
+    .post(createThought);
+
+router.route('/:thoughtId')
     .get(getThoughtById)
-    .post(createThought)
     .put(updateThought)
     .delete(deleteThought);
 
