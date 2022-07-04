@@ -59,8 +59,8 @@ Before starting the application, you must have first installed Node.js and Mongo
 
 ## Tests
 
-[Walkthrough Video Pt.1 Users & Friends Routes](https://drive.google.com/file/d/1laBALsL_RPP8CXvJlG-N2pmGD8n_Q-Gr/view)
-[Walkthrough Video Pt.2 Thoughts & Reactions Routes](https://drive.google.com/file/d/1pRUjkF8rk_6gGshW7uP7u6UZ00udQqId/view)
+* [Walkthrough Video Pt.1 Users & Friends Routes](https://drive.google.com/file/d/1laBALsL_RPP8CXvJlG-N2pmGD8n_Q-Gr/view)
+* [Walkthrough Video Pt.2 Thoughts & Reactions Routes](https://drive.google.com/file/d/1pRUjkF8rk_6gGshW7uP7u6UZ00udQqId/view)
 
 ## Questions
 
