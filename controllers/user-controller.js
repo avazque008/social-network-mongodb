@@ -65,7 +65,7 @@ const userController = {
             .catch(err => res.status(400).json(err));
     },
 
-    async deleteUser({ params }, res) {
+    deleteUser({ params }, res) {
         User.findOneAndDelete({ _id: params.id })
             .then(dbUserData => {
                 if (!dbUserData) {
@@ -74,7 +74,7 @@ const userController = {
                 }
                 res.json(dbUserData);
 
-                await Thought.deleteMany({ username: dbUserData.username });
+                Thought.deleteMany({ username: dbUserData.username });
 
             })
             .catch(err => res.status(400).json(err));
