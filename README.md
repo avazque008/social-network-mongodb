@@ -2,7 +2,7 @@
 
 ## Description
 
-The back end for an social network site that includes several api routes that interacts with a NoSQL database.
+The back end for an social network site that includes several api routes that interact with a NoSQL database.
 
 #### Built With
 
